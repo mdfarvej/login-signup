@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: #282E34;
+}
+
+header img{
+    padding: 0px 50px;
+}
+
+.header-part{
+    color: white;
+    display: flex;
+    flex: 1;
+    padding-right: 50px;
+    justify-content: right;
+}
+
+.header-part ul{
+    display: flex;
+    align-items: center;
+}
+
+.header-part li{
+    font-size: 24px;
+    padding: 0px 20px;
+}
+
+.header-part a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
